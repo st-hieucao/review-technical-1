@@ -2,7 +2,7 @@ import { types } from "../types";
 
 export const orderReducer = (state = {}, action) => {
   switch (action.type) {
-    case types.SAVE_INFO_CART: {
+    case types.SAVE_INFO_PIZZA: {
       localStorage.setItem('type', JSON.stringify(action.payload))
       return {
         ...state,
