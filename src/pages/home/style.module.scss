@@ -1,0 +1,47 @@
+.homePage {
+  position: relative;
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  .orderContent {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    padding: 2rem;
+    .orderTitle {
+      font-size: 3.5rem;
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+    .listOptionPizza {
+      display: flex;
+      gap: 2rem;
+    }
+    .listTopping {
+      display: flex;
+      gap: 2rem;
+    }
+    .cartInfo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 5rem;
+      .totalPrice {
+        font-size: 3rem;
+        color: #fff;
+      }
+      .buttonOrder {
+        background: #85241d;
+        color: #fff;
+        border: 1px solid #85241d;
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+        border-radius: 8px;
+        width: 15rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

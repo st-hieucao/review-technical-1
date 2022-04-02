@@ -1,0 +1,40 @@
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  margin-top: 4rem;
+  padding: 0 2rem;
+  border-radius: 8px;
+  color: #333;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+  &.optionRound {
+    padding: 0;
+    width: 3rem;
+    border-radius: 50%;
+  }
+  &.optionActive {
+    color: #fff;
+    background: #85241d;
+  }
+  &:hover {
+    color: #fff;
+    background: #85241d;
+    transition: all .3s;
+  }
+  .price {
+    position: absolute;
+    right: -.8rem;
+    top: -.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: #85241d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
